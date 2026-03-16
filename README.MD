@@ -40,7 +40,7 @@ El material està organitzat seguint les **fases inicials del projecte**.
 
 ## 1️⃣ Requisits del projecte
 
-📄 `01-requisits-projecte-daw.md`
+📄 [`01-requisits-projecte-daw.md`](01-requisits-projecte-daw.md)
 
 Defineix **què ha de tenir el projecte**:
 
@@ -56,7 +56,7 @@ Defineix **què ha de tenir el projecte**:
 
 ## 2️⃣ Fases del projecte
 
-📄 `02-fases-projecte-daw.md`
+📄 [`02-fases-projecte-daw.md`](02-fases-projecte-daw.md)
 
 Explica **com es desenvoluparà el projecte al llarg del curs**.
 
@@ -73,7 +73,7 @@ Fases habituals:
 
 ## 3️⃣ Guia per preparar l'estudi previ
 
-📄 `03-guia-estudi-previ.md`
+📄 [`03-guia-estudi-previ.md`](03-guia-estudi-previ.md)
 
 Document que explica **com elaborar el primer document del projecte**.
 
@@ -97,7 +97,7 @@ exemples/
 
 ### Exemple d'estudi previ
 
-📄 `04-exemple-estudi-previ.md`
+📄 [`04-exemple-estudi-previ.md`](exemples/04-exemple-estudi-previ.md)
 
 Exemple real de document d'estudi previ per veure **com estructurar la primera entrega**.
 
@@ -107,7 +107,7 @@ Exemple real de document d'estudi previ per veure **com estructurar la primera e
 
 📁 `diagrames/`
 
-Inclou exemples de:
+Inclou exemples de diagrames utilitzats en els exemples:
 
 * diagrama d'arquitectura
 * model de dades
@@ -120,9 +120,9 @@ Inclou exemples de:
 
 Per entendre correctament el projecte:
 
-1️⃣ `01-requisits-projecte-daw.md`
-2️⃣ `02-fases-projecte-daw.md`
-3️⃣ `03-guia-estudi-previ.md`
+1️⃣ `01-requisits-projecte-daw.md`  
+2️⃣ `02-fases-projecte-daw.md`  
+3️⃣ `03-guia-estudi-previ.md`  
 4️⃣ Revisar els exemples de la carpeta `exemples/`
 
 ---
@@ -140,7 +140,7 @@ Aquest repositori pretén:
 
 # 👨‍💻 Desenvolupament del projecte
 
-Els projectes solen ser **aplicacions web full-stack**, combinant frontend, backend i base de dades.
+Els projectes han de ser **aplicacions web full-stack**, combinant frontend, backend i base de dades.
 
 L'objectiu és aplicar els coneixements adquirits durant el cicle:
 
@@ -178,4 +178,5 @@ L'objectiu és aplicar els coneixements adquirits durant el cicle:
 ---
 
 ⚠️ **Nota:** Les tecnologies utilitzades poden variar segons el projecte de cada equip.
-Cada grup pot escollir el stack tecnològic que millor s'adapti a la seva aplicació.
+Cada grup pot escollir el stack tecnològic que millor s'adapti a la seva aplicació. Previa consulta amb el professorat
+

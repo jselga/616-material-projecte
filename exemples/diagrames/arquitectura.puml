@@ -1,0 +1,17 @@
+@startuml EventHubArch
+top to bottom direction
+skinparam padding 5
+skinparam componentStyle rectangle
+
+actor "Usuari / Organitzador / Admin" as Client
+
+rectangle "Frontend React + TailwindCSS" as Frontend
+rectangle "Backend API Laravel" as Backend
+database "Base de dades MySQL" as DB
+rectangle "Servei de correu (notificacions / verificació)" as Mail
+
+Client --> Frontend : Navegació web
+Frontend --> Backend : HTTP / JSON
+Backend --> DB : Consultes CRUD
+Backend --> Mail : Enviament de correus
+@enduml

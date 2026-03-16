@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="519px" preserveAspectRatio="none" style="width:559px;height:519px;" version="1.1" viewBox="0 0 559 519" width="559px" zoomAndPan="magnify"><defs><filter height="300%" id="f1rtfqaia7h5uk" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[0ba5ee7700168656dc1b457c6fe9fdac]
+entity Client--><ellipse cx="242" cy="17.5" fill="#FEFECE" filter="url(#f1rtfqaia7h5uk)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M242,25.5 L242,52.5 M229,33.5 L255,33.5 M242,52.5 L229,67.5 M242,52.5 L255,67.5 " fill="none" filter="url(#f1rtfqaia7h5uk)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="201" x="141.5" y="90.9951">Usuari / Organitzador / Admin</text><!--MD5=[194a92f280a7d2c2f105939ff984a7cf]
+entity Frontend--><rect fill="#FEFECE" filter="url(#f1rtfqaia7h5uk)" height="46.2969" style="stroke: #000000; stroke-width: 1.5;" width="240" x="122" y="186"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="210" x="137" y="213.9951">Frontend React + TailwindCSS</text><!--MD5=[a6db0c926898241e7c594507fb3ca544]
+entity Backend--><rect fill="#FEFECE" filter="url(#f1rtfqaia7h5uk)" height="46.2969" style="stroke: #000000; stroke-width: 1.5;" width="167" x="158.5" y="319"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="137" x="173.5" y="346.9951">Backend API Laravel</text><!--MD5=[f9ba5bf973e7832d2ce5ed59077b93f7]
+entity DB--><path d="M6,462 C6,452 98,452 98,452 C98,452 190,452 190,462 L190,497.2969 C190,507.2969 98,507.2969 98,507.2969 C98,507.2969 6,507.2969 6,497.2969 L6,462 " fill="#FEFECE" filter="url(#f1rtfqaia7h5uk)" style="stroke: #000000; stroke-width: 1.5;"/><path d="M6,462 C6,472 98,472 98,472 C98,472 190,472 190,462 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="154" x="21" y="493.9951">Base de dades MySQL</text><!--MD5=[d6e75f2a2d9b7b2a48fe909117c6250f]
+entity Mail--><rect fill="#FEFECE" filter="url(#f1rtfqaia7h5uk)" height="46.2969" style="stroke: #000000; stroke-width: 1.5;" width="323" x="225.5" y="456.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="293" x="240.5" y="484.4951">Servei de correu (notificacions / verificació)</text><!--MD5=[bd336ad79e38ebf089cc47500237cb18]
+link Client to Frontend--><path d="M242,99.31 C242,125.69 242,158.2 242,180.75 " fill="none" id="Client-&gt;Frontend" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="242,185.98,246,176.98,242,180.98,238,176.98,242,185.98" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="96" x="248" y="147.0669">Navegació web</text><!--MD5=[2c52bf2a9f4c69e755a5015cfec4aff1]
+link Frontend to Backend--><path d="M242,232.22 C242,254.62 242,289.23 242,313.38 " fill="none" id="Frontend-&gt;Backend" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="242,318.67,246,309.67,242,313.67,238,309.67,242,318.67" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="76" x="248" y="280.0669">HTTP / JSON</text><!--MD5=[e51c87b4fe94d727f0d0dd704a0cbc3c]
+link Backend to DB--><path d="M218.54,365.07 C194.54,387.66 157.06,422.92 130.27,448.13 " fill="none" id="Backend-&gt;DB" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="126.4,451.78,135.6953,448.5245,130.041,448.3532,130.2123,442.6989,126.4,451.78" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="104" x="189" y="413.0669">Consultes CRUD</text><!--MD5=[f93ac357ba662dcf74444b944dd28e1b]
+link Backend to Mail--><path d="M271.48,365.24 C282.86,374.17 295.8,384.76 307,395 C327.11,413.39 348.38,435.75 363.94,452.71 " fill="none" id="Backend-&gt;Mail" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="367.36,456.46,364.2173,447.126,363.9775,452.7778,358.3257,452.538,367.36,456.46" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="140" x="340" y="413.0669">Enviament de correus</text><!--MD5=[ffc82eb9dc3002f3eca9c6d2673b47f2]
+@startuml EventHubArch
+top to bottom direction
+skinparam padding 5
+skinparam componentStyle rectangle
+
+actor "Usuari / Organitzador / Admin" as Client
+
+rectangle "Frontend React + TailwindCSS" as Frontend
+rectangle "Backend API Laravel" as Backend
+database "Base de dades MySQL" as DB
+rectangle "Servei de correu (notificacions / verificació)" as Mail
+
+Client - -> Frontend : Navegació web
+Frontend - -> Backend : HTTP / JSON
+Backend - -> DB : Consultes CRUD
+Backend - -> Mail : Enviament de correus
+@enduml
+
+PlantUML version 1.2020.02(Sun Mar 01 11:22:07 CET 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 21.0.4+8-LTS-274
+Operating System: Linux
+Default Encoding: UTF-8
+Language: ca
+Country: ES
+--></g></svg>

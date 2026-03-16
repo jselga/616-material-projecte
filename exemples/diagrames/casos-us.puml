@@ -1,0 +1,41 @@
+@startuml EventHub
+left to right direction
+
+actor Visitant
+actor "Usuari registrat" as Usuari
+actor Organitzador
+actor Administrador
+
+rectangle EventHub {
+  usecase "Consultar esdeveniments" as UC1
+  usecase "Registrar-se" as UC2
+  usecase "Iniciar sessió" as UC3
+  usecase "Inscriure's a un esdeveniment" as UC4
+  usecase "Gestionar perfil" as UC5
+  usecase "Crear esdeveniment" as UC6
+  usecase "Editar / eliminar esdeveniment" as UC7
+  usecase "Gestionar inscripcions" as UC8
+  usecase "Moderar contingut" as UC9
+  usecase "Gestionar usuaris" as UC10
+}
+
+Visitant --> UC1
+Visitant --> UC2
+Visitant --> UC3
+
+Usuari --> UC1
+Usuari --> UC3
+Usuari --> UC4
+Usuari --> UC5
+
+Organitzador --> UC1
+Organitzador --> UC3
+Organitzador --> UC5
+Organitzador --> UC6
+Organitzador --> UC7
+Organitzador --> UC8
+
+Administrador --> UC3
+Administrador --> UC9
+Administrador --> UC10
+@enduml

@@ -1,0 +1,35 @@
+@startuml EvenHub model
+hide methods
+hide stereotypes
+skinparam classAttributeIconSize 0
+
+class Usuari {
+  id : bigint
+  nom : string
+  email : string
+  password : string
+  rol : string
+}
+
+class Esdeveniment {
+  id : bigint
+  titol : string
+  descripcio : text
+  data : datetime
+  ubicacio : string
+  aforament : int
+  organitzador_id : bigint
+}
+
+class Inscripcio {
+  id : bigint
+  usuari_id : bigint
+  esdeveniment_id : bigint
+  data_inscripcio : datetime
+  estat : string
+}
+
+Usuari "1" -- "0..*" Esdeveniment : crea
+Usuari "1" -- "0..*" Inscripcio : fa
+Esdeveniment "1" -- "0..*" Inscripcio : rep
+@enduml
